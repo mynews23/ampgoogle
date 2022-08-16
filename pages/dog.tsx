@@ -13,18 +13,62 @@ export default function DogPage() {
     <div>
       <Head>
         <title>The Dog</title>
-      </Head>
-      <h1>The Dog (Hybrid AMP Page)</h1>
-      <Byline author="Meow Meow Fuzzyface" />
+<html>
+  <head>
+    <title>Award Winners</title>
+  </head>
+  <body>
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="https://example.com/books">
+            <span itemprop="name">Books</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      ›
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemscope itemtype="https://schema.org/WebPage"
+           itemprop="item" itemid="https://example.com/books/sciencefiction"
+           href="https://example.com/books/sciencefiction">
+          <span itemprop="name">Science Fiction</span></a>
+        <meta itemprop="position" content="2" />
+      </li>
+      ›
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="https://example.com/books/sciencefiction/awardwinners">
+          <span itemprop="name">Award Winners</span></a>
+        <meta itemprop="position" content="3" />
+      </li>
+    </ol>
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="https://example.com/literature">
+          <span itemprop="name">Literature</span></a>
+        <meta itemprop="position" content="1" />
+      </li>
+      ›
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <span itemprop="name">Award Winners</span>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol>
+ 
+      
+      <h1>The Maliek Amp</h1>
+      <Byline author="Maliek Galant " />
       <p>
         <a href={isAmp ? '/dog' : '/dog?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Woooooooooooof</p>
+      <p className="caption">Problem Slime Records</p>
       <p>
         Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/?amp=1' : '/'}>lemon drops</a> icing. Marzipan gummi
+        <a href={isAmp ? '/?amp=1' : '/'}>lemon drops</ icing. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
@@ -36,21 +80,7 @@ export default function DogPage() {
         carrot cake muffin tiramisu lemon drops liquorice topping brownie.
         Soufflé chocolate cake croissant cupcake jelly.
       </p>
-      <p>
-        Muffin gummies dessert cheesecake candy canes. Candy canes danish cotton
-        candy tart dessert powder bear claw marshmallow. Muffin chocolate
-        marshmallow danish. Chocolate bar biscuit cake tiramisu. Topping sweet
-        brownie jujubes powder marzipan. Croissant wafer bonbon chupa chups cake
-        cake marzipan caramels jujubes. Cupcake cheesecake sweet roll
-        marshmallow lollipop danish jujubes jelly icing. Apple pie chupa chups
-        lollipop jelly-o cheesecake jelly beans cake dessert. Tootsie roll
-        tootsie roll bonbon pastry croissant gummi bears cake cake. Fruitcake
-        sugar plum halvah gingerbread cookie pastry chupa chups wafer lemon
-        drops. Marshmallow liquorice oat cake lollipop. Lemon drops oat cake
-        halvah liquorice danish powder cupcake soufflé. Cake tart topping
-        jelly-o tart sugar plum. Chocolate bar cookie wafer tootsie roll candy
-        cotton candy toffee pie donut.
-      </p>
+      
       <p>
         Ice cream lollipop marshmallow tiramisu jujubes croissant. Bear claw
         lemon drops marzipan candy bonbon cupcake powder. Candy canes cheesecake
@@ -89,6 +119,7 @@ export default function DogPage() {
         dragée ice cream biscuit. Pie candy canes muffin candy canes ice cream
         tiramisu.
       </p>
+
     </div>
   )
 }
