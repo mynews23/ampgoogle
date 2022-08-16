@@ -18,22 +18,16 @@ export default function IndexPage() {
       <h1>The Maliek News (AMP-first Page)</h1>
       <Byline author="Maliek Galant" />
       <p className="caption">Maliek4LMaxine</p>
-      <amp-img
-        alt="Mountains"
-        width="550"
-        height="368"
-        layout="responsive"
-        src="https://amp.dev/static/inline-examples/images/mountains.webp"
-      >
-        <amp-img
-          alt="Mountains"
-          fallback=""
-          width="550"
-          height="368"
-          layout="responsive"
-          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
-        ></amp-img>
-      </amp-img>
+      <amp-img 
+  class="w-full h-full"
+  width="303"
+  height="254"
+  object-fit="cover"
+  object-position="50% 50%"
+  src="https://cdn.tappable.io/ZA3o5qoa/i/JzRZq66aeo5pD4h8enk67.o.jpeg"
+  alt=""
+  layout="responsive"
+>     </amp-img>
       <p>
         Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
