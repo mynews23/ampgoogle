@@ -12,16 +12,16 @@ export default function DogPage() {
   return (
     <div>
       <Head>
-        <title>The Dog</title>
+        <title>The Maliek News</title>
       </Head>
-      <h1>The Dog (Hybrid AMP Page)</h1>
-      <Byline author="Meow Meow Fuzzyface" />
+      <h1>The Maliek News (AMP Page)</h1>
+      <Byline author="Maliek Galant" />
       <p>
-        <a href={isAmp ? '/dog' : '/dog?amp=1'}>
+        <a href={isAmp ? '/blog' : '/blog?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Woooooooooooof</p>
+      <p className="caption">Who Are We ?</p>
       <p>
         Wafer donut candy soufflé{' '}
         <a href={isAmp ? '/?amp=1' : '/'}>lemon drops</a> icing. Marzipan gummi
