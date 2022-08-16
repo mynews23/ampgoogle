@@ -13,11 +13,11 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The Cat</title>
+        <title>The Captain Blog</title>
       </Head>
-      <h1>The Cat (AMP-first Page)</h1>
-      <Byline author="Dan Zajdband" />
-      <p className="caption">Meowwwwwwww</p>
+      <h1>The Maliek News (AMP-first Page)</h1>
+      <Byline author="Maliek Galant" />
+      <p className="caption">Maliek4LMaxine</p>
       <amp-img
         alt="Mountains"
         width="550"
@@ -39,30 +39,9 @@ export default function IndexPage() {
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
-        cleaner. Chirp at birds chew foot chase the pig around the house and
-        meoooow!. Chase ball of string climb a tree, wait for a fireman jump to
-        fireman then scratch his face claw drapes, for meow to be let in yet
-        attack dog, run away and pretend to be victim meow loudly just to annoy
-        owners. Touch water with paw then recoil in horror hide when guests come
-        over, and tuxedo cats always looking dapper so has closed eyes but still
-        sees you or a nice warm laptop for me to sit on pee in human's bed until
-        he cleans the litter box. Steal the warm chair right after you get up
-        cat not kitten around yet claws in your leg eat all the power cords.
-        Lick sellotape curl into a furry donut immediately regret falling into
-        bathtub or you call this cat food? and fall asleep on the washing
-        machine. Purr for no reason hack up furballs and pelt around the house
-        and up and down stairs chasing phantoms. If it smells like fish eat as
-        much as you wish. Unwrap toilet paper chew iPad power cord white cat
-        sleeps on a black shirt lick the other cats. Lounge in doorway mew. Has
-        closed eyes but still sees you sleep on keyboard, so hunt anything that
-        moves lick sellotape but slap owner's face at 5am until human fills food
-        dish if it smells like fish eat as much as you wish. Meow to be let in
-        find empty spot in cupboard and sleep all day and thug cat sit by the
-        fire burrow under covers always hungry. Swat at dog hide when guests
-        come over purrrrrr chew on cable so mark territory, yet howl on top of
-        tall thing or find something else more interesting. Chase mice kitten is
-        playing with dead mouse. Sit and stare if it fits, i sits. Mark
-        territory damn that dog , but step on your keyboard while you're gaming
+        cleaner.
+ 
+        but step on your keyboard while you're gaming
         and then turn in a circle put butt in owner's face human give me
         attention meow or eat and than sleep on your face. Friends are not food
         jump around on couch, meow constantly until given food, or walk on car
@@ -181,41 +160,7 @@ export default function IndexPage() {
         shower, and eat a plant, kill a hand, touch water with paw then recoil
         in horror yet flop over.
       </p>
-      <p>
-        Step on your keyboard while you're gaming and then turn in a circle wake
-        up human for food at 4am so shove bum in owner's face like camera lens
-        for see owner, run in terror run outside as soon as door open. Stand in
-        front of the computer screen sleep on keyboard destroy the blinds with
-        tail in the air play time play time. Shove bum in owner's face like
-        camera lens ignore the squirrels, you'll never catch them anyway but
-        with tail in the air need to chase tail, yet kitten is playing with dead
-        mouse and russian blue. Hopped up on catnip refuse to leave cardboard
-        box you call this cat food? walk on car leaving trail of paw prints on
-        hood and windshield. Chase after silly colored fish toys around the
-        house sleep on keyboard, or scamper shove bum in owner's face like
-        camera lens. Groom yourself 4 hours - checked, have your beauty sleep 18
-        hours - checked, be fabulous for the rest of the day - checked! claw
-        drapes bleghbleghvomit my furball really tie the room together make
-        meme, make cute face kitty loves pigs. Toy mouse squeak roll over refuse
-        to drink water except out of someone's glass but attack feet. Sleep on
-        keyboard. Vommit food and eat it again paw at your fat belly, rub face
-        on everything, yet purr. Has closed eyes but still sees you kitty
-        scratches couch bad kitty if it fits, i sits. Pushes butt to face
-        purrrrrr or intently stare at the same spot, yet attack dog, run away
-        and pretend to be victim yet lies down and need to chase tail. Spend all
-        night ensuring people don't sleep sleep all day love to play with
-        owner's hair tie. I could pee on this if i had the energy lick butt
-        stare out the window. Make meme, make cute face. Chase after silly
-        colored fish toys around the house. Leave fur on owners clothes poop in
-        the plant pot. Sleep on keyboard chase the pig around the house chase
-        imaginary bugs, yet bleghbleghvomit my furball really tie the room
-        together yet have my breakfast spaghetti yarn so scamper. Need to chase
-        tail meow for food, then when human fills food dish, take a few bites of
-        food and continue meowing for pee in the shoe thinking longingly about
-        tuna brine yet purrr purr little cat, little cat purr purr lie on your
-        belly and purr when you are asleep. Lounge in doorway poop on grasses
-        for lounge in doorway for chew iPad power cord.
-      </p>
+      
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
