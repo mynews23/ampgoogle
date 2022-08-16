@@ -22,7 +22,18 @@ export default function DogPage() {
         </a>
       </p>
       <p className="caption">Who Are We ?</p>
+  <amp-img 
+  class="w-full h-full"
+  width="303"
+  height="254"
+  object-fit="cover"
+  object-position="50% 50%"
+  src="https://cdn.tappable.io/ZA3o5qoa/i/JzRZq66aeo5pD4h8enk67.o.jpeg"
+  alt=""
+  layout="responsive"
+></amp-img>
       <p>
+
         Wafer donut candy soufflé{' '}
         <a href={isAmp ? '/?amp=1' : '/'}>lemon drops</a> icing. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
