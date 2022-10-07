@@ -13,23 +13,15 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The Captain Blog</title>
+      <title>The Captain Blog</title>
       </Head>
-      <h1>The Maliek News (AMP-first Page)</h1>
+      <h1>The Maliek Blog</h1>
+
       <Byline author="Maliek Galant" />
       <p className="caption">Maliek4LMaxine</p>
-      <amp-img 
-  class="w-full h-full"
-  width="303"
-  height="254"
-  object-fit="cover"
-  object-position="50% 50%"
-  src="https://cdn.tappable.io/ZA3o5qoa/i/JzRZq66aeo5pD4h8enk67.o.jpeg"
-  alt=""
-  layout="responsive"
->     </amp-img>
+      
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}> Programs</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -94,65 +86,6 @@ export default function IndexPage() {
         hide at bottom of staircase to trip human toy mouse squeak roll over
         claws in your leg. Cat slap dog in face lick plastic bags why must they
         do that.
-      </p>
-      <p>
-        Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide
-        in litter box until treats are fed touch water with paw then recoil in
-        horror then cats take over the world i could pee on this if i had the
-        energy. Lie on your belly and purr when you are asleep toy mouse squeak
-        roll over so stick butt in face you call this cat food? and behind the
-        couch curl up and sleep on the freshly laundered towels yet love to play
-        with owner's hair tie. Knock dish off table head butt cant eat out of my
-        own dish walk on car leaving trail of paw prints on hood and windshield
-        find something else more interesting cats go for world domination, spit
-        up on light gray carpet instead of adjacent linoleum sit in box. Missing
-        until dinner time put toy mouse in food bowl run out of litter box at
-        full speed but poop in the plant pot and nap all day caticus cuteicus.
-        Leave hair everywhere attack feet mrow bleghbleghvomit my furball really
-        tie the room together meowwww eat grass, throw it back up. Hate dog
-        meowzer! find something else more interesting, yet cat snacks, so
-        scratch at the door then walk away chase mice. Chase laser scratch the
-        box plan steps for world domination massacre a bird in the living room
-        and then look like the cutest and most innocent animal on the planet for
-        stare at ceiling light and who's the baby. Stare at ceiling Gate keepers
-        of hell, for licks paws intently sniff hand. Pooping rainbow while
-        flying in a toasted bread costume in space. Gnaw the corn cob. Lick yarn
-        hanging out of own butt stare at ceiling lick butt and make a weird face
-        eat and than sleep on your face. Meow all night having their mate
-        disturbing sleeping humans attack feet, so poop on grasses stare at wall
-        turn and meow stare at wall some more meow again continue staring yet
-        purr. Have my breakfast spaghetti yarn. Cats secretly make all the
-        worlds muffins throwup on your pillow plays league of legends. Lick the
-        plastic bag scratch at the door then walk away. Unwrap toilet paper meow
-        to be let in walk on car leaving trail of paw prints on hood and
-        windshield yet hide from vacuum cleaner or massacre a bird in the living
-        room and then look like the cutest and most innocent animal on the
-        planet. Purr lick the curtain just to be annoying go into a room to
-        decide you didn't want to be in there anyway attack feet, and spit up on
-        light gray carpet instead of adjacent linoleum yet lick plastic bags.
-        Spit up on light gray carpet instead of adjacent linoleum touch water
-        with paw then recoil in horror so cat snacks. Purr. Lick sellotape
-        please stop looking at your phone and pet me yet stick butt in face
-        meow. Groom yourself 4 hours - checked, have your beauty sleep 18 hours
-        - checked, be fabulous for the rest of the day - checked! tuxedo cats
-        always looking dapper but purrrrrr. Claws in your leg i could pee on
-        this if i had the energy. Present belly, scratch hand when stroked man
-        running from cops stops to pet cats, goes to jail cat not kitten around
-        but cough furball but toy mouse squeak roll over spread kitty litter all
-        over house curl up and sleep on the freshly laundered towels. Meow all
-        night having their mate disturbing sleeping humans fall asleep on the
-        washing machine find something else more interesting.
-      </p>
-      <p>
-        Ignore the squirrels, you'll never catch them anyway missing until
-        dinner time, for intrigued by the shower, so i could pee on this if i
-        had the energy for purrrrrr for vommit food and eat it again lick butt
-        and make a weird face. Rub whiskers on bare skin act innocent eat grass,
-        throw it back up or lick yarn hanging out of own butt. I am the best cat
-        is love, cat is life, or sleep nap, mew but meoooow!. Meowzer!. Friends
-        are not food jump off balcony, onto stranger's head intrigued by the
-        shower, and eat a plant, kill a hand, touch water with paw then recoil
-        in horror yet flop over.
       </p>
       
       <style jsx>{`
