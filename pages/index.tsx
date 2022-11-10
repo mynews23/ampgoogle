@@ -13,7 +13,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-      <title>The M Blog</title>
+      <title>The Maliek Blog</title>
       </Head>
       <h1>The Maliek Blog</h1>
 
